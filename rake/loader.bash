@@ -1,0 +1,2 @@
+# Rake
+alias r="rake"

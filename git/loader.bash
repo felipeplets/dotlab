@@ -4,7 +4,7 @@ source ${BASE_DIR}/git/completion.bash
   
 # Add git completion to aliases
 __git_complete gc _git_checkout
-__git_complete gm __git_merge
+__git_complete gm _git_merge
 __git_complete gp _git_pull
 
 # Aliases

@@ -1,0 +1,35 @@
+{
+  "name": "dotlab",
+  "version": "0.0.2",
+  "description": "Dot Lab is a dotfiles solution to help you keep sanity and have a quick start with your computer configuration",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dotlab": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeplets/dotlab.git"
+  },
+  "keywords": [
+    "dotfiles"
+  ],
+  "author": "Felipe Plets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeplets/dotlab/issues"
+  },
+  "homepage": "https://github.com/felipeplets/dotlab#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "minimist": "^1.2.0"
+  }
+}

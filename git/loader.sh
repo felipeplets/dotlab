@@ -1,12 +1,3 @@
-# Git branch bash completion
-# Copied from https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-source ${BASE_DIR}/git/completion.bash
-  
-# Add git completion to aliases
-__git_complete gc _git_checkout
-__git_complete gm _git_merge
-__git_complete gp _git_pull
-
 # Aliases
 alias g="git"
 alias gc="git checkout"

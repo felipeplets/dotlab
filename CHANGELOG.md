@@ -11,14 +11,15 @@
 - 🚀 Update dependency
 - 🚫 Remove
 
-## 0.0.2 - 30.01.2020
+## 0.0.2 - 25.11.2021
 
+- 🔧 Move project to TypeScript
 - ✨ Add a basic presentation and automatically adds the loader.sh to the end of the user .zshrc file
+- ✨ Add a few more git aliases
 - 👨🏻‍💻 Add .gitignore file
 - 🏷 Change project name from DotFiles to DotLab
 - 🏷 Change file extensions from .bash to .sh
 - 🏷 Change project from shell scripts bundle to a NPM CLI tool
-- 🚫 Remove
 
 ## 0.0.1 - 02.07.2019
 

@@ -1,12 +1,14 @@
 {
   "name": "dotlab",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Dot Lab is a dotfiles solution to help you keep sanity and have a quick start with your computer configuration",
   "main": "index.js",
   "bin": {
     "dotlab": "./dist/index.js"
   },
   "scripts": {
+    "version": "tsc && git add -A && npm publish --access public",
+    "postversion": "git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

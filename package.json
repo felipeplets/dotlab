@@ -1,6 +1,6 @@
 {
   "name": "dotlab",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dot Lab is a dotfiles solution to help you keep sanity and have a quick start with your computer configuration",
   "main": "index.js",
   "bin": {

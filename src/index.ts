@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { commands } from './commands';
+import { Commands } from './commands';
 
 // Delete the 0 and 1 argument (node and script.js)
 const args = process.argv.splice(process.execArgv.length + 2);
@@ -10,7 +10,7 @@ const availableCommands = [
 ];
 
 if (args[0] === 'init') {
-  commands.init();
+  Commands.init(args);
 } else {
-  commands.notSupported();
+  Commands.notSupported(args);
 }

@@ -5,19 +5,19 @@ import fs from 'fs';
 import path from 'path';
 import os from 'os';
 
-class commands {
-    static init() {
+class Commands {
+    static init(args) {
         clear();
         console.log(
             chalk.blue(
                 figlet.textSync('DotLab', { horizontalLayout: 'full' })
             )
         );
-        fs.appendFileSync(`${os.homedir()}/.zshrc`, `\nsource ${path.resolve('./loader.sh')}`);
+        fs.appendFileSync(`${os.homedir()}/.zshrc`, `\nsource ${path.resolve('loader.sh')}`);
     }
-    static notSupported() {
-        console.log('Feature not supported!');
+    static notSupported(args) {
+        console.log(`Command "${args[0]}" is not recognized.`);
     }
 }
 
-export { commands }
+export { Commands }

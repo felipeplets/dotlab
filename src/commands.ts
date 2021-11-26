@@ -18,6 +18,13 @@ class Commands {
     static notSupported(args) {
         console.log(`Command "${args[0]}" is not recognized.`);
     }
+    static process(args) {
+        if (args[0] === 'init') {
+        Commands.init(args);
+        } else {
+        Commands.notSupported(args);
+        }
+    }
 }
 
 export { Commands }

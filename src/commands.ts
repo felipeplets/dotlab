@@ -20,9 +20,9 @@ class Commands {
     }
     static process(args) {
         if (args[0] === 'init') {
-        Commands.init(args);
+            Commands.init(args);
         } else {
-        Commands.notSupported(args);
+            Commands.notSupported(args);
         }
     }
 }

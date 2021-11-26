@@ -2,7 +2,7 @@ export default {
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
-  clearMocks: true,
+  restoreMocks: true,
   collectCoverage: true,
   coverageDirectory: "coverage",
   coverageProvider: "v8"

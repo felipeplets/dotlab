@@ -9,5 +9,5 @@ describe("Test CLI", () => {
         require("./index");
         expect(mocked(Commands.process)).toBeCalledTimes(1);
         expect(mocked(Commands.process)).toBeCalledWith(["init"]);
-    })
-})
+    });
+});

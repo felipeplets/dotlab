@@ -27,4 +27,4 @@ class Commands {
     }
 }
 
-export { Commands }
+export { Commands };
